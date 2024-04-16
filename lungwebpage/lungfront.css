@@ -20,6 +20,7 @@
     border-radius: 5px;
     margin-top: 1%;
     float: right;
+    cursor: pointer;
 }
 
 #box1{
@@ -57,4 +58,28 @@
     top: 80%;
     left: 25%;
     transform: translate(-0%,-0%);
+}
+#text2{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    font-size: 5ch;
+    color: black;
+    transform: translate(-10%,-45%);
+}
+#text3{
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translate(-0%,-25%);
+}
+
+
+
+.color{
+    background-color:azure;
+    border-radius: 20px;
+    opacity: 70%;
+    width: fit-content;
+    height: 40%;
 }
