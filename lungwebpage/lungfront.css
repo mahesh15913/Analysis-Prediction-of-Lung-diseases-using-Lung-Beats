@@ -74,6 +74,34 @@
     transform: translate(-0%,-25%);
 }
 
+#textimage1, #textimage2,#textimage4,#textimage5{
+    position: absolute;
+    top: 18%;
+    left: 40%;
+    font-size: 5ch;
+    transform: translate(-5%,-50%);
+}
+
+
+
+.image1{
+    position: absolute;
+    top: 5%;
+    left: 45%;
+    font-size: 5ch;
+    transform: translate(-5%,-50%);
+
+}
+.color1{
+    color: #1F4D4D;
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
 
 
 .color{
@@ -82,4 +110,11 @@
     opacity: 70%;
     width: fit-content;
     height: 40%;
+}
+
+.top-margin{
+    height: 8vh;
+}
+.bottom-margin{
+    height: 90vh;
 }
