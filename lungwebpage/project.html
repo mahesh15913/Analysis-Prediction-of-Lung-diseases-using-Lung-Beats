@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>
-            About Us
+            Project
         </title>
         <link rel="stylesheet" href="lungfront.css">
         <script type="text/javascript" src="front.js"></script>
@@ -26,27 +26,97 @@
                     </span>
                 </div>
             </div>
-            <div class="container">
-                <img src=C:\Users\mahii\OneDrive\Desktop\practice\MajorProject\lungwebpage\2.png width="100%" height="100%">
-                <div class="image1 top-margin">Project Overview</div>
-                
+            <div class="container2">
+                <div class="top-margin">Project Overview</div>
+                <hr id= "horizontalrow" style="width: 80%" class="left-margin">
+                <div class="bottom-margin">
+                <p>
+                    
+                </p>
+               box1
+                </div>
+            </div>
+            <div class="container1">
+                <div class="top-margin">Methodology</div>
+                <hr id= "horizontalrow" left="10%" width="80%">
+                <div class="bottom-margin">
+                    <div class="methodleft">
+                        hdgdfysd
+                    </div>
+                    <div class="methodright">
+                        <p>&#128973 This step involves importing the text files from the dataset which having the details of the respiratory cycles, sound feature of the lung disease, and patient demographic information.</p>
+                        <br>
+                        <p>&#128973 The information are extracted from the file and converted into data frame. This data frame contains audio classification and patient demographic information. </p>
+                        <br>
+                        <p>&#128973 The audio files should be imported with “.wav” extension and split the large audio into multiple smaller audio files based on the respiratory cycle. The names for the audio files should be annotated and create a directory for the files.</p>
+                        <br>
+                        <p>&#128973 This step involves Creating a new data frame table with a divided audio files and patient disease data. The data is split into train and test data for CNN model</p>
+                        <br>
+                        <p>&#128973 Now extract features from the feature extractions such as mfcc (Mel–frequency cepstral coefficients), cstft (Chroma Short-Time Fourier Transform), mspec(Mel spectrogram) using librosa package. And apply the padding to the features to convert Numpy arrays to single numpy array. </p>
+                        <br>
+                        <p>&#128973 Three CNN models are built for three feature extraction techniques and after the three CNN models are concatenated, we will feed the features to dense layer of neural network. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="top-margin">Literature survey</div>
+                <hr id= "horizontalrow" left="10%" width="80%">
+                <div class="bottom-margin">
+                    <table>
+                        <tr><th>Title</th><th>Author</th><th>publication</th><th>Summary</th></tr>
+                        <tr><td>Cnn-moe based framework for classification of respiratory anomalies and lung disease detection</td><td>Lam Pham, Huy Phan, et al.</td><td>IEEE</td>
+                            <td><p>&#9673 This paper presents and explores a robust deep-learning framework for auscultation analysis.</p>
+                                <p>&#9673 This aims to classify anomalies in respiratory cycles and detect disease, from respiratory sound recordings.</p>
+                                <p>&#9673 The framework begins with front-end feature extraction that transforms input sound into a spectrogram representation.</p>
+                            </td>
+                        </tr>
+                        <br>
+                         <tr><td>Automatic identification of respiratory diseases from stethoscopic lung sound signals using ensemble classifiers.</td><td>Luay fraiwan, et al.</td><td>ScienceDirect</td>
+                                    <td><p>&#9673 The case sample involved a total of 215 subjects and consisted of 308 clinically acquired lung sound recordings and 1176 recordings obtained from the ICBHI Challenge database.</p>
+                                        <p>&#9673 These recordings corresponded to a wide range of conditions including health, asthma, pneumonia, heart failure, bronhiec_X002_tasis or bronchitis, and chronic obstructive pulmonary disease.</p>
+                                    </td>
+                        </tr>
+                        <br>
+                        <tr><td>Lungattn: advanced lung sound classification using attention mechanism with dual two and triple stft spectrogram.</td><td>Jizuo Li, et al.</td><td>ResearchGate</td>
+                            <td><p>&#9673 During the ICBHI 2017 challenge, a database of 920 records acquired from 126 subject, was used to find a method that predicted if a respiratory cycle contains, or not, adventitious sounds like crackles, wheezes, or both of them. </p>
+                                <p>&#9673 A new approach consists of creating a new model at the patient level, which can decide if a patient sounds sick or not, by taking as input the predicted results of the first classification model.</p>
+                            </td>
+                        </tr>
+                        <br>
+                    </table>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="top-margin">Flow Chat</div>
+                <hr id= "horizontalrow" left="10%" width="80%">
+                <div class="bottom-margin"><img src="C:\Users\mahii\OneDrive\Desktop\practice\MajorProject\lungwebpage\flowchat.png" width="100%" height = 100%></div>
+            </div>
+            <div class="container1">
+                <div class="top-margin">Results</div>
+                <hr id= "horizontalrow" left="10%" width="80%">
+                <div class="bottom-margin">
+                    <div class="quatar1">
+                        <img src="C:\Users\mahii\OneDrive\Desktop\practice\MajorProject\lungwebpage\result2.png" width="70%" height="100%">
+                    </div>
+                    <div class="quatar2">
+                        box2
+                    </div>
+                    <div class="quatar3">
+                        box3
+                    </div>
+                    <div class="quatar4">
+                        <img src="C:\Users\mahii\OneDrive\Desktop\practice\MajorProject\lungwebpage\resullt1.png" width="70%" height="100%">
+                    </div>
+                </div>
             </div>
             <div class="container">
-                <img src=C:\Users\mahii\OneDrive\Desktop\practice\MajorProject\lungwebpage\3.png width="100%" height="100%">
-                <div class="image1">Methodology</div>
-            </div>
-            <div class="container">
-                <img src=C:\Users\mahii\OneDrive\Desktop\practice\MajorProject\lungwebpage\4.png width="100%" height="100%">
-                <div class="image1 color1">Literature Survey</div>
-            </div>
-
-            <div class="container">
-                <img src=C:\Users\mahii\OneDrive\Desktop\practice\MajorProject\lungwebpage\2.png width="100%" height="100%">
-                <div class="image1">Results</div>
-            </div>
-            <div class="container">
-                <img src=C:\Users\mahii\OneDrive\Desktop\practice\MajorProject\lungwebpage\3.png width="100%" height="100%">
-                <div class="image1">Conclusion</div>
+                <div class="top-margin">conclusion</div>
+                <hr id= "horizontalrow" left="10%" width="80%">
+                <div class="bottom-margin">
+                    <p class="conclusion">
+                        In conclusion, the lung disease prediction model developed in this project help us gain significant advancement in medical diagnostics by using deep learning and machine learning. By curating a comprehensive dataset of live audios of respiratory depicting various lung diseases and put through rigorous preprocessing, using various feature extracting techniques like MFCC, CSTFT and MSPEC. Utilizing Convolutional Neural Networks (CNNs), we successfully extracted relevant features from the audios which help us to accurately predict different diseases in initial phase of illness.
+                    </p>
+                </div>
             </div>
         </div>
     </body>
