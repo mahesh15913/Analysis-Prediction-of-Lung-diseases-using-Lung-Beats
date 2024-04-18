@@ -30,8 +30,6 @@
 
 #box2{
     height: 90vh;
-    background-color: aqua;
-  
 }
 #box3{
     width: 30%;
@@ -155,6 +153,7 @@
     width: 45%;
     height: 100%;
     float: left;
+    /* border: solid 1px black; */
     
 }
 .methodright{
@@ -165,6 +164,7 @@
     width: 55%;
     height: 100%;
     float: right;
+    /* border: solid 1px black; */
 }
 .quatar1{
     padding: 1%;
@@ -209,3 +209,86 @@ table{
     background-color: #F5FFFD;
 }
 
+#aboutusid{
+    background-color: #D4F1F4;
+}
+#aboutus{
+    background-color: #75E6DA;
+}
+.scroll-margin{
+    width: 100%;
+    height: 80vh;
+    padding: 2%;
+}
+.aboutus-top{
+    width: 100%;
+    height: 10vh;
+    font-size: 5ch;
+    font-style: normal;
+    font-weight: bold;
+    text-align: start;
+    padding: 1%;
+    padding-left: 2%;
+}
+
+#imageab{
+    width: 80%;
+    height: 80%;
+    border-radius: 18px;
+    align-items: center;
+    /* position: absolute; */
+    margin-top: 10%;
+}
+
+.column {
+    float: left;
+    height: 100%
+  }
+  
+  .leftimg, .rightimg, .middleimg {
+    width: 31%;
+    background-color: azure;
+    border-radius: 18px;
+    /* opacity: 70%; */
+  }
+  
+  .break{
+    width: 2%;
+    
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+  }
+
+  .imgcls{
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+  }
+  imgbutton{
+    margin-top: 2%;
+    padding-left: 2%;
+    
+  }
+  .upcls{
+    height: 85%;
+    width: 100%;
+  }
+  .downcls{
+    height: 15%;
+    width: 100%;
+  }
+  #uname{
+    top:50%;
+    left: 0%;
+    float: left;
+    color: #D4F1F4;
+    text-align: left;
+    transform: translate(-0%,-105%);
+    padding-left: 2%;
+    /* border: solid 1px black; */
+  }
