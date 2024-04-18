@@ -134,11 +134,11 @@
 }
 
 .top-margin{
-    height: 8vh;
+    height: 7vh;
     font-size: 5ch;
 }
 .bottom-margin{
-    height: 90vh;
+    height: 91vh;
     
 }
 .left-margin{
@@ -191,10 +191,21 @@
     align-items: center;
 }
 table, th, td{
-    padding: 1%;
-    
-}
-td{
-    padding-left: 1%;
+    border: solid 1px black;
     text-align: justify;
 }
+table{
+    padding-top: 1%;
+}
+
+#lsbutton{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    font-size: 18px;
+    border-radius: 12px;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #F5FFFD;
+}
+
