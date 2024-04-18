@@ -101,6 +101,27 @@
     position: relative;
     text-align: center;
     color: white;
+    border: solid 1px black;
+    background-color: #1F4D4D;
+    height: 500svh;
+  }
+
+  .container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    border: solid 1px black;
+    background-color: #F1D5BA;
+    height: 500svh;
+  }
+
+  .container2 {
+    position: relative;
+    text-align: center;
+    color: black;
+    border: solid 1px black;
+    background-color: #F5FFFD;
+    height: 500svh;
   }
 
 
@@ -114,7 +135,66 @@
 
 .top-margin{
     height: 8vh;
+    font-size: 5ch;
 }
 .bottom-margin{
     height: 90vh;
+    
+}
+.left-margin{
+    left: 10%;
+}
+#horizontalrow{
+    position: absolute;
+    left: 10%;
+}
+.conclusion{
+    padding: 3%;
+}
+.methodleft{
+    width: 45%;
+    height: 100%;
+    float: left;
+    
+}
+.methodright{
+    font-size: large;
+    padding-top: 2%;
+    padding: 3%;
+    text-align: justify;
+    width: 55%;
+    height: 100%;
+    float: right;
+}
+.quatar1{
+    padding: 1%;
+    width: 50%;
+    height: 50%;
+    float: left;
+    align-items: center;
+}
+.quatar2{
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+.quatar3{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+.quatar4{
+    padding: 1%;
+    width: 50%;
+    height: 50%;
+    float: right;
+    align-items: center;
+}
+table, th, td{
+    padding: 1%;
+    
+}
+td{
+    padding-left: 1%;
+    text-align: justify;
 }
