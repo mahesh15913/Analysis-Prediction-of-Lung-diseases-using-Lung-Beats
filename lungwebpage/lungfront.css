@@ -22,6 +22,31 @@
     float: right;
     cursor: pointer;
 }
+.button1{
+    position: absolute;
+    top: 85%;
+    left: 42%;
+    
+    padding: 1%;
+    font-size: 16px;
+    border-radius: 34px;
+    border: none;
+    background-color: azure;
+    background-blend-mode: lighten;
+    transform: translate(-45%,-10%);
+}
+.button2{
+    position: absolute;
+    top: 85%;
+    right: 42%;
+    padding: 1%;
+    font-size: 16px;
+    border-radius: 34px;
+    border: none;
+    background-color: azure;
+    background-blend-mode: lighten;
+    transform: translate(45%,-10%);
+}
 
 #box1{
     height: 10vh;
@@ -47,10 +72,13 @@
 #img1{
     float: left;
     border-radius: 50%;
-    width: 20%;
+    width: 15%;
     height: 90%;
+   
 }
-
+#id1{
+    border: solid 1px black;
+}
 #text1{
     margin-top: 2%;
     top: 80%;
@@ -70,6 +98,8 @@
     top: 55%;
     left: 25%;
     transform: translate(-0%,-25%);
+    font-size: 3ch;
+
 }
 
 #textimage1, #textimage2,#textimage4,#textimage5{
@@ -234,7 +264,7 @@ table{
 #imageab{
     width: 80%;
     height: 80%;
-    border-radius: 18px;
+    border-radius: 24px;
     align-items: center;
     /* position: absolute; */
     margin-top: 10%;
@@ -301,13 +331,9 @@ table{
 }
 
 .image-name {
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    color: azure;
-    font-size: 18px;
-    font-weight: bold;
+    margin-top: 2%;
+    font-size: 24px;
+    /* font-weight: bold; */
     text-align: center;
 }
 
@@ -344,4 +370,12 @@ table{
 
 .social-icons img:last-child {
     margin-right: 0;
+}
+.title-container{
+    background-color: azure;
+    border-radius: 20px;
+    height: auto;
+    width: 70%;
+    margin-left: 15%;
+    /* margin-top: 2%; */
 }
