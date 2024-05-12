@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .box-wrapper{
     height: 95vh;
@@ -13,7 +14,7 @@
 .design{
     padding: 2%;
     border: none;
-    color: #989090;
+    color: #042f2e;
     padding-left: 5%;
     background-color: #ffff;
     font-size: 18px;
@@ -24,7 +25,7 @@
 }
 .button1{
     position: absolute;
-    top: 85%;
+    top: 80%;
     left: 42%;
     
     padding: 1%;
@@ -37,7 +38,7 @@
 }
 .button2{
     position: absolute;
-    top: 85%;
+    top: 80%;
     right: 42%;
     padding: 1%;
     font-size: 16px;
@@ -76,20 +77,19 @@
     height: 90%;
    
 }
-#id1{
-    border: solid 1px black;
-}
+
 #text1{
     margin-top: 2%;
     top: 80%;
     left: 25%;
+    color: #042f2e;
     transform: translate(-0%,-0%);
 }
 #text2{
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 20%;
-    font-size: 5ch;
+    font-size: 4ch;
     color: black;
     transform: translate(-10%,-45%);
 }
@@ -98,18 +98,9 @@
     top: 55%;
     left: 25%;
     transform: translate(-0%,-25%);
-    font-size: 3ch;
+    font-size: 2ch;
 
 }
-
-#textimage1, #textimage2,#textimage4,#textimage5{
-    position: absolute;
-    top: 18%;
-    left: 40%;
-    font-size: 5ch;
-    transform: translate(-5%,-50%);
-}
-
 
 
 .image1{
@@ -120,41 +111,31 @@
     transform: translate(-5%,-50%);
 
 }
-.color1{
-    color: #1F4D4D;
-}
-
-
 .container {
     position: relative;
     text-align: center;
-    color: white;
-    border: solid 1px black;
-    background-color: #1F4D4D;
+    background-color: #99F6E4;
     height: 500svh;
   }
 
   .container1 {
     position: relative;
     text-align: center;
-    color: white;
-    border: solid 1px black;
-    background-color: #F1D5BA;
+    background-color: #99F6E4;
     height: 500svh;
   }
 
   .container2 {
     position: relative;
     text-align: center;
-    color: black;
-    border: solid 1px black;
-    background-color: #F5FFFD;
+    background-color: #99F6E4;
     height: 500svh;
   }
 
 
 .color{
     background-color:azure;
+    padding-top: 2%;
     border-radius: 20px;
     opacity: 70%;
     width: fit-content;
@@ -162,11 +143,18 @@
 }
 
 .top-margin{
-    height: 7vh;
-    font-size: 5ch;
+    height: 10vh;
+    padding: 1%;
+    padding-bottom: 1% ;
+    font-size: 4ch;
+    color: white;
+    background-image: linear-gradient(to right, #99f6e4,#5EEAD4,#2DD4BF,#0f766e,#115e59,#134E4A,#042f2e,#134E4A,#115E59,#0f766e,#2DD4BF,#5EEAD4,#99f6e4);
+    background-size: 100%;
+    
 }
 .bottom-margin{
-    height: 91vh;
+    height: 95vh;
+    color: #042f2e;
     
 }
 .left-margin{
@@ -178,6 +166,15 @@
 }
 .conclusion{
     padding: 3%;
+    position: absolute;
+    padding-left: 5%;
+    padding-right: 5%;
+    top: 20%;
+    font-size: medium;
+    text-align: Center;
+    text-justify:auto;
+    transform: translate(-0%,-0%);
+    line-height:150%
 }
 .methodleft{
     width: 45%;
@@ -222,28 +219,44 @@
 }
 table, th, td{
     border: solid 1px black;
+    color: #042f2e;
     text-align: justify;
 }
+th{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+td{
+    padding-left: 1%;
+    padding-right: 1%;
+    /* padding-top: 2%; */
+    line-height: 140%;
+}
+
 table{
     padding-top: 1%;
 }
 
 #lsbutton{
     position: absolute;
-    top: 90%;
-    left: 50%;
+    top: 92%;
+    left: 45%;
     font-size: 18px;
     border-radius: 12px;
     padding-left: 1%;
     padding-right: 1%;
+    color: #1F4D4D;
+    /* font-weight: bold; */
     background-color: #F5FFFD;
 }
 
 #aboutusid{
-    background-color: #D4F1F4;
+    background-color: #99F6E4;
 }
 #aboutus{
-    background-color: #75E6DA;
+    background-image: linear-gradient(to right, #042f2e,#14b8a6,#0f766e,#14b8a6,#042f2e,#14b8a6,#0f766e,#14b8a6,#042f2e);
+    background-size: 100%;
 }
 .scroll-margin{
     width: 100%;
@@ -253,10 +266,11 @@ table{
 .aboutus-top{
     width: 100%;
     height: 10vh;
-    font-size: 5ch;
+    color: white;
+    font-size: 3ch;
     font-style: normal;
     font-weight: bold;
-    text-align: start;
+    text-align: center;
     padding: 1%;
     padding-left: 2%;
 }
@@ -294,37 +308,6 @@ table{
     clear: both;
 
   }
-
- 
-  
-
-  /* .imgcls{
-    border-top-left-radius: 18px;
-    border-top-right-radius: 18px;
-  }
-  imgbutton{
-    margin-top: 2%;
-    padding-left: 2%;
-    
-  }
-  .upcls{
-    height: 85%;
-    width: 100%;
-  }
-  .downcls{
-    height: 15%;
-    width: 100%;
-  }
-  #uname{
-    top:50%;
-    left: 0%;
-    float: left;
-    color: #D4F1F4;
-    text-align: left;
-    transform: translate(-0%,-105%);
-    padding-left: 2%;
-  }
-  */
 
   .image-container {
     position: relative;
