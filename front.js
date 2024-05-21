@@ -2,7 +2,7 @@ function aboutus(){
     window.location.href = "aboutus.html"
 }
 function Home(){
-    window.location.href = "lungdiseasefront.html"
+    window.location.href = "index.html"
 }
 function analysis(){
     window.location.href = "analysis.html"

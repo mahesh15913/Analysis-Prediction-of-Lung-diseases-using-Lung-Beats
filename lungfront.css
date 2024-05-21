@@ -27,7 +27,7 @@
     position: absolute;
     top: 80%;
     left: 42%;
-    
+    color:#042f2e;
     padding: 1%;
     font-size: 16px;
     border-radius: 34px;
@@ -44,18 +44,32 @@
     font-size: 16px;
     border-radius: 34px;
     border: none;
+    color: #042f2e;
     background-color: azure;
     background-blend-mode: lighten;
     transform: translate(45%,-10%);
 }
 
+.describe{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    width: fit-content;
+    height: fit-content;
+    background-color: azure;
+    transform: translate(-10%,-45%);
+    opacity: 80%;
+    border-radius: 30px;
+}
 #box1{
     height: 10vh;
+    color: #042f2e;
     
 }
 
 #box2{
     height: 90vh;
+    color: #042f2e;
 }
 #box3{
     width: 30%;
@@ -69,6 +83,7 @@
     width: 70%;
     height: 100%;
     float: right;
+    color: #042f2e;
 }
 #img1{
     float: left;
@@ -86,18 +101,11 @@
     transform: translate(-0%,-0%);
 }
 #text2{
-    position: absolute;
-    top: 50%;
-    left: 20%;
     font-size: 4ch;
-    color: black;
-    transform: translate(-10%,-45%);
+    color: #042f2e;
 }
 #text3{
-    position: absolute;
-    top: 55%;
-    left: 25%;
-    transform: translate(-0%,-25%);
+    color: #042f2e;
     font-size: 2ch;
 
 }
@@ -114,33 +122,33 @@
 .container {
     position: relative;
     text-align: center;
-    background-color: #99F6E4;
+    /* background-color: #99F6E4; */
     height: 500svh;
   }
 
   .container1 {
     position: relative;
     text-align: center;
-    background-color: #99F6E4;
+    /* background-color: #99F6E4; */
     height: 500svh;
   }
 
   .container2 {
     position: relative;
     text-align: center;
-    background-color: #99F6E4;
+    /* background-color: #99F6E4; */
     height: 500svh;
   }
 
 
-.color{
+/* .color{
     background-color:azure;
     padding-top: 2%;
     border-radius: 20px;
     opacity: 70%;
     width: fit-content;
     height: 40%;
-}
+} */
 
 .top-margin{
     height: 10vh;
@@ -153,7 +161,7 @@
     
 }
 .bottom-margin{
-    height: 95vh;
+    height: 90vh;
     color: #042f2e;
     
 }
@@ -170,7 +178,7 @@
     padding-left: 5%;
     padding-right: 5%;
     top: 20%;
-    font-size: medium;
+    font-size: larger;
     text-align: Center;
     text-justify:auto;
     transform: translate(-0%,-0%);
@@ -180,18 +188,34 @@
     width: 45%;
     height: 100%;
     float: left;
-    /* border: solid 1px black; */
-    
 }
+
+.abouttext{
+    margin-top: 5%;
+    padding-top: 5%;
+    padding: 2%;
+    text-align: justify;
+    line-height: 140%;
+}
+
+.overviewc{
+    margin-top: 5%;
+    font-size: larger;
+    padding-top: 2%;
+    text-align: center;
+    padding: 3%;
+
+}
+
 .methodright{
-    font-size: large;
+    font-size:larger;
     padding-top: 2%;
     padding: 3%;
-    text-align: justify;
     width: 55%;
     height: 100%;
     float: right;
-    /* border: solid 1px black; */
+    text-align: justify;
+    
 }
 .quatar1{
     padding: 1%;
@@ -232,10 +256,12 @@ td{
     padding-right: 1%;
     /* padding-top: 2%; */
     line-height: 140%;
+    font-size: larger;
 }
 
 table{
-    padding-top: 1%;
+    /* padding-top: 1%; */
+    margin-top: 2%;
 }
 
 #lsbutton{
@@ -252,8 +278,9 @@ table{
 }
 
 #aboutusid{
-    background-color: #99F6E4;
+    /* background-color: #99F6E4; */
 }
+
 #aboutus{
     background-image: linear-gradient(to right, #042f2e,#14b8a6,#0f766e,#14b8a6,#042f2e,#14b8a6,#0f766e,#14b8a6,#042f2e);
     background-size: 100%;
@@ -323,6 +350,9 @@ table{
   .image-gallery {
     display: flex;
     overflow-x: auto;
+}
+::-webkit-scrollbar{
+    display: none;
 }
 
 .image-container {

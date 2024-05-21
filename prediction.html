@@ -26,7 +26,25 @@
                 </div>
             </div>
             <div id="box2"> 
-                box2
+                <input type="file" id="audioFile" accept="audio/*">
+                <button type="button" onclick="start()">Start</button>
+                <button type="button" onclick="stop()">Stop</button>
+                <script>
+                    var audioFile = document.getElementById("audioFile");
+                    var audioContext = new AudioContext();
+                    var source = audioContext.createMediaElementSource(audioFile);
+                    var analyser = audioContext.createAnalyser();
+                    source.connect(analyser);
+                    analyser.connect(audioContext.destination);
+
+                    function start() {
+                    audioFile.play();
+                    }
+
+                    function stop() {
+                    audioFile.pause();
+                    }
+                </script>
             </div>
         </div>
     </body>
