@@ -8,7 +8,7 @@ from feature_extraction import extract_clips, extract_features, feature_padding
 from model_training import build_model, train_model, evaluate_model, plot_history
 
 def main():
-    directory = "./Analysis-Prediction-of-Lung-diseases-using-Lung-Beats/Respiratory sounds"
+    directory = "C:\\Users\\mahii\\OneDrive\\Desktop\\practice\\MajorProject\\Respiratory sounds\\audio_and_txt_files"
     content = load_data(directory)
     
     patient_lung_data = parse_patient_lung_data(content, directory)
@@ -16,7 +16,7 @@ def main():
     lung_data = process_lung_data(patient_lung_data)
     datay = merge_dataframes(data, lung_data)
     
-    patient_demographic = load_patient_demographic(r'C:\Users\Asus\Desktop\lung_prediciton\Analysis-Prediction-of-Lung-diseases-using-Lung-Beats\Respiratory sounds\patient_diagnosis.csv')
+    patient_demographic = load_patient_demographic(r'C:\\Users\\mahii\\OneDrive\Desktop\\practice\\MajorProject\\Respiratory sounds\\patient_diagnosis.csv')
     final_data = datay.merge(patient_demographic, how='outer', on='patient_id')
     
     X_train, X_test, Y_train, Y_test = train_test_split(final_data, final_data['disease'], stratify=final_data['disease'], random_state=43, test_size=0.25)
