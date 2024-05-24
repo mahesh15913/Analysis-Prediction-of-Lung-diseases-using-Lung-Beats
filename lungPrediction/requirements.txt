@@ -1,0 +1,11 @@
+pandas 
+numpy 
+tqdm
+librosa
+soundfile 
+pytest-shutil
+tensorflow
+seaborn
+matplotlib
+scikit-learn
+
