@@ -25,25 +25,30 @@
                     </span>
                 </div>
             </div>
-            <div id="box2"> 
-                <input type="file" id="audioFile" accept="audio/*">
-                <button type="button" onclick="start()">Start</button>
-                <button type="button" onclick="stop()">Stop</button>
+            <div id="box2" class="mt"> 
+                <!-- <form action="/app.py" method="post" enctype="multipart/form-data"> -->
+                    <input type="file" id="fileInput" 
+                    accept="audio/*">
                 <script>
-                    var audioFile = document.getElementById("audioFile");
-                    var audioContext = new AudioContext();
-                    var source = audioContext.createMediaElementSource(audioFile);
-                    var analyser = audioContext.createAnalyser();
-                    source.connect(analyser);
-                    analyser.connect(audioContext.destination);
-
-                    function start() {
-                    audioFile.play();
-                    }
-
-                    function stop() {
-                    audioFile.pause();
-                    }
+                    let fileInput = document.getElementById('fileInput');
+                    fileInput.addEventListener('change', function (event) {
+                        let file = event.target.files[0];
+                        let reader = new FileReader();
+            
+                        reader.onload = function (event) {
+                            let audioContext = new (window.AudioContext ||window.webkitAudioContext)();
+                            audioContext.decodeAudioData(event
+                                .target.result, function (buffer) {
+                                    let audioPlayer = document.createElement('audio');
+                                    audioPlayer.controls = true;
+                                    audioPlayer.src = URL.createObjectURL(file);
+                                    document.body.appendChild(audioPlayer);
+                                });
+                        };
+            
+                        reader.readAsArrayBuffer(file);
+                    });
+            
                 </script>
             </div>
         </div>
